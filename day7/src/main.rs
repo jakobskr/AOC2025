@@ -24,7 +24,6 @@ fn main() {
     let s = input[0].iter().position(|c| *c == 'S').unwrap();
 
 
-
     (sum_a, sum_b) = solve(&input, s, true); 
 
     println!("part a: {}\npart b: {}", sum_a, sum_b)
